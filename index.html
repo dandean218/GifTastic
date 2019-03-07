@@ -5,19 +5,52 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Sign-Up Today!</title>
+  <title>So Much GIF fun!</title>
 
-  <!-- Bootstrap -->
+  <!-- BOOTSTRAP and my style sheet -->
+  <link rel="stylesheet" href="assets/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/gif.css">
 </head>
 
 <body>
+<!--WHERE THE HEADER GOES-->
+<div class="jumbotron">
+    
+  <div class="container gif-header">
+      <h2>Search for some singer GIFs!</h2>
+      <!-- <img class="logo" src="assets/images/bart.png"> -->
+  </div>
+</div>
+
+<!--WHERE THE BUTTONS GO-->
+<div id="buttons" class="container singerBTN">
+</div>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-xs-6 col-sm-8 col-lg-12 gif-submission">
+      <!--NEW GIFs added by user-->
+      <form id="gif-submission-form" role="form">
+        <h3>Where the magic happens</h3>
+        <div class="form-group">
+          <label for="gif-input">Type in who you want to see here:</label>
+          <input type="text" id="gif-input">
+        </div>
+        <input id="add-gif" type="submit" value="Add your singer" class="btn btn-primary">
+        <input id="remove-gif" type="submit" value="Remove your singer" class="btn btn-primary">
+      </form>
+    </div>
+</div>
+<div class="col-xs-6 col-sm-8 col-lg-12 gif-display">
+    <!--EXISTING GIFs from array-->
+    <div id="gif-display"></div>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-<script type="text/javascript">
-
-</script>
+<script type="text/javascript" src="assets/gif.js"></script>
 </body>
 
 </html>

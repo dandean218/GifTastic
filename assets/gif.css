@@ -1,0 +1,51 @@
+.btn-primary{
+    margin: 10px;
+    background-color: greenyellow;
+    color: black;
+    font: bold;
+}
+
+.jumbotron{
+    background-color: greenyellow;
+    height: 240px;
+}
+
+.logo{
+    width:150px;
+    display:block;
+    margin:auto;
+    float: right;
+}
+
+.gif-display{
+    float: left;
+}
+
+#gif-submission-form{
+    float: right;
+    width: 40%;
+}
+
+.btn-primary:hover{
+    background-color:orange;
+}
+
+
+.btn-primary:active{
+    background-color:purple;
+}
+
+
+.singerBTN{
+    width: 60%;
+    float:left;
+    padding-left:5%;
+}
+
+.gif-header{
+    background-image: url("images/bart.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    padding-top: 125px;
+}
